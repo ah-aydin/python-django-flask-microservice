@@ -5,7 +5,7 @@
 .dbdata/
 
 ### Python environments ###
-adminenv/
+*venv/
 
 ### Django ###
 *.log
