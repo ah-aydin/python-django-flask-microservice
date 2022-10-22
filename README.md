@@ -5,12 +5,14 @@ A repo for me to refer to when creating microservices with docker.
 To run, go to `main` and `product_service`, then run `docker-compose up --build` to run the docker containers.
 
 In the `product_service` container, go to the django container and run
-```python manage.py makemigrations
+```
+python manage.py makemigrations
 python manage.py migrate
 ```
 
 In the `main` container, go to the flask container and run
-```export FLASKAPP=main
+```
+export FLASKAPP=main
 flask db init
 flask db migrate
 flask db upgrade
